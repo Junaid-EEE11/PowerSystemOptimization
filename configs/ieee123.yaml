@@ -1,0 +1,6 @@
+network:
+  name: ieee123
+  data_path: data/external/ieee123
+  master_dss: data/external/ieee123/IEEE123Master.dss
+  v_min: 0.95
+  v_max: 1.05

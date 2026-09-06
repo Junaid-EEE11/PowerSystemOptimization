@@ -1,0 +1,17 @@
+extends: base.yaml
+project:
+  mode: quick
+data:
+  source: synthetic
+  periods: 4800
+optimization:
+  epsilon_grid: [0.0, 0.05, 0.20]
+  scenario_count: 12
+experiment:
+  max_decision_calibration_points: 4
+  max_test_points: 8
+  pv_penetrations: [0.40, 0.80]
+  stress_error_scales: [1.0, 2.0]
+  load_biases: [0.0, 0.10]
+  bootstrap_replicates: 100
+

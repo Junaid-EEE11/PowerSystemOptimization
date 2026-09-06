@@ -1,0 +1,16 @@
+extends: base.yaml
+project:
+  mode: full
+data:
+  source: measured
+  load_path: data/raw/load.csv
+  pv_path: data/raw/pv.csv
+network:
+  names: [ieee33, ieee123]
+  ieee123_master: data/external/ieee123/IEEE123Master.dss
+optimization:
+  scenario_count: 250
+experiment:
+  max_decision_calibration_points: null
+  max_test_points: null
+  bootstrap_replicates: 5000

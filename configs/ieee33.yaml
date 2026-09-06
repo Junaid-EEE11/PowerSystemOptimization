@@ -1,0 +1,7 @@
+network:
+  name: ieee33
+  base_mva: 10.0
+  base_kv: 12.66
+  v_min: 0.95
+  v_max: 1.05
+
